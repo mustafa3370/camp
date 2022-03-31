@@ -135,7 +135,15 @@
                                 /*ta3del*/
                                 animation: photo 2s linear;
                             }
-                            
+                            .fanos{
+                                position: absolute;
+                                
+                               top: -2%;
+                               right: 600px;
+                                width: 200px;
+                                animation: fanos 9s infinite;
+                            }
+                         
                             /*ta3del*/
                             
                             @keyframes photo {
@@ -143,6 +151,30 @@
                                     transform: translateX(1200px);
                                 }
                             }
+                            @keyframes fanos {
+                                0% {
+                                    -webkit-transform: rotate(7deg);
+                                    -ms-transform: rotate(7deg);
+                                    transform: rotate(7deg);
+                                }
+                                50% {
+                                    -webkit-transform: rotate(-73deg);
+                                    -ms-transform: rotate(-8deg);
+                                    transform: rotate(-5deg);
+                                }
+                                100% {
+                                    -webkit-transform: rotate(5deg);
+                                    -ms-transform: rotate(5deg);
+                                    transform: rotate(5deg);
+                                }
+                            }
+
+
+
+
+
+
+
                             /*end of ta3del*/
                             
                             .welc-text h1 {
